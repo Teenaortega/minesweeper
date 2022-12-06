@@ -1,0 +1,58 @@
+.app {
+    text-align: center;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+
+  }
+  
+  .time {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+  
+  .button {
+    padding: .6rem 1.5rem;
+    margin: .4rem;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: .8rem;
+    border-style: groove;
+    background-color: #026707;
+    border: 1px solid #022e10;
+    color: white;
+  }
+  
+  .button:focus {
+    outline-width: 0;
+    background-color:  #022e10;
+    border: 1px solid #022e10;
+  }
+  
+  .button-primary:hover {
+    background-color:  #022e10;
+    border: 1px solid #022e10;
+  }
+  
+  .button-primary-active {
+    background-color: #026707;
+    border: 1px solid #022e10;
+    color: white;
+  }
+  
+  .button-primary-inactive {
+    background-color: #026707;
+    border: 1px solid #022e10;
+    color: white;
+  }
+
+  .button-reset:hover {
+    background-color:  #022e10;
+    border: 1px solid #022e10;
+  }
+  
